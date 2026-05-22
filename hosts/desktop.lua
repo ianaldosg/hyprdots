@@ -5,7 +5,7 @@
 
 -- ─── Monitor ─────────────────────────────────────────────────────────────────
 hl.monitor({
-    output   = "DP-1",
+    output   = "DP-3",
     mode     = "3440x1440@159.96",
     position = "auto",
     scale    = "auto",

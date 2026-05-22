@@ -66,9 +66,9 @@ hl.config({
         --},
 
         -- Render / Color management
-        --render = {
-            --    cm_auto_hdr = true,
-            --},
+        render = {
+                cm_auto_hdr = true,
+            },
 
         })
 

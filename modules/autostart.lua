@@ -4,10 +4,6 @@
 -- ╚══════════════════════════════════════════╝
 
 hl.on("hyprland.start", function()
-    -- ─── Portais de Gerenciamento ────────────────────────────────────────
-    hl.exec_cmd("/usr/lib/xdg-desktop-portal-hyprland")
-    hl.exec_cmd("/usr/lib/xdg-desktop-portal")
-
     -- ─── Autenticação ─────────────────────────────────────────────────────────
     hl.exec_cmd("systemctl --user start hyprpolkitagent")
 
