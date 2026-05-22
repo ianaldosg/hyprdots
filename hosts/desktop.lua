@@ -40,6 +40,7 @@ hl.config({
 })
 
 -- ─── Keybinds exclusivos do PC ───────────────────────────────────────────────
+local mainMod     = "SUPER"
 -- Toggle waybar
 hl.bind(mainMod .. " + Y", hl.dsp.exec_cmd("pkill waybar || waybar &"))
 
