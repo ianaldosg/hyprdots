@@ -23,8 +23,8 @@ hl.bind(mainMod .. " + space", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + F",     hl.dsp.exec_cmd(browser))
 
 -- ─── Screenshots ─────────────────────────────────────────────────────────────
-hl.bind("ALT + P", hl.dsp.exec_cmd("hyprshot -m region -o ~/Screenshots"))
-hl.bind("SHIFT + ALT + P", hl.dsp.exec_cmd("hyprshot -m active -o ~/Screenshots"))
+hl.bind("ALT + P", hl.dsp.exec_cmd("hyprshot -m region -o ~/Screenshots -z"))
+hl.bind("SHIFT + ALT + P", hl.dsp.exec_cmd("hyprshot -m active -o ~/Screenshots -z"))
 
 -- ─── System ─────────────────────────────────────────────────────────────────
 -- Hyprland Exit
