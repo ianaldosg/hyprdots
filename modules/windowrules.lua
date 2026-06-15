@@ -62,6 +62,18 @@ rules({ class = "kitty", title = "scratch" }, {
 -- Tearing para jogos (melhor performance)
 hl.window_rule({ immediate = true }, { class = ".*\\.exe" })  -- Wine/Proton
 
+-- ─── Taskbar Hero ──────────────────────────────────────────────────────────
+hl.window_rule({
+    match = {
+        class = "steam_app_3678970",
+    },
+
+    border_size = 0,
+    no_blur = true,
+    no_shadow = true,
+    pin = true,
+})
+
 -- ─── Pesquisar ──────────────────────────────────────────────────────────
 
 -- ─── hyprland-run (igual nos dois) ───────────────────────────────────────────
