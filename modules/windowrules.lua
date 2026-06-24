@@ -68,6 +68,8 @@ hl.window_rule({
         class = "steam_app_3678970",
     },
 
+    workspace = "1 silent",
+    float = true,
     border_size = 0,
     no_blur = true,
     no_shadow = true,
