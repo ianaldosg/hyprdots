@@ -73,7 +73,7 @@ hl.window_rule({
     border_size = 0,
     no_blur = true,
     no_shadow = true,
-    pin = true,
+    --pin = true,
 })
 
 -- ─── Pesquisar ──────────────────────────────────────────────────────────
