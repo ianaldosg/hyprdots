@@ -13,6 +13,9 @@ hl.on("hyprland.start", function()
     -- ─── Wallpaper ───────────────────────────────────────────────────────────
     hl.exec_cmd("hyprpaper")
 
+    -- ─── Walker ───────────────────────────────────────────────────────────
+    hl.exec_cmd("walker --gapplication-service")
+
     -- ─── Cursor ──────────────────────────────────────────────────────────────
     -- hl.exec_cmd("hyprctl setcursor Catppuccin-Mocha-Dark-Cursors 24")
 
