@@ -14,7 +14,7 @@ local mainMod     = "SUPER"
 local browser     = "firefox"
 local terminal    = "kitty"
 local fileManager = "thunar"
-local menu        = "rofi -show drun"
+local menu        = "walker"
 
 -- ─── Aplicativos ─────────────────────────────────────────────────────────────
 hl.bind(mainMod .. " + Q",     hl.dsp.exec_cmd(terminal))
