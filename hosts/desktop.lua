@@ -53,7 +53,7 @@ hl.bind(mainMod .. " + D", hl.dsp.window.move({ direction = "right" }))
 -- ─── Window rules exclusivas do PC ───────────────────────────────────────────
 -- Jogos e launchers → workspaces 2 e 3
 local game_rules = {
-    ["2"] = "steam|CurseForge|heroic|desmume",
+    ["2"] = "steam|CurseForge|heroic|desmume|r2modman",
     ["3"] = "steam_app_default|Minecraft",
 }
 
