@@ -76,6 +76,21 @@ hl.window_rule({
     --pin = true,
 })
 
+-- ─── YT minimized floating window ──────────────────────────────────────────────────────────
+hl.window_rule({
+    match = {
+        class = "firefox",
+        title = "^(Picture-in-Picture)$"
+    },
+    float = true,
+    pin = true,
+    no_initial_focus = true,
+    size = { "30%", "30%" },
+    move = { "100%-w-20", "100%-h-20" },
+    keep_aspect_ratio = true,
+    suppress_event = "maximize"
+})
+
 -- ─── Pesquisar ──────────────────────────────────────────────────────────
 
 -- ─── hyprland-run (igual nos dois) ───────────────────────────────────────────
